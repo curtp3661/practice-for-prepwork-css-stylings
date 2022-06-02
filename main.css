@@ -1,37 +1,62 @@
+body {
+    background-color: antiquewhite;
+}
+
+
 h1 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    text-decoration: ;
-    color: ;
-    background-color: ;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1%;
+    margin: auto;
+    font-weight: normal;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 60% 60% 60% 60%;
+    border-style: dotted;
 }
 
 h2 {
-    font-size: ;
-    font-family: ;
-    padding: ;
-    margin: ;
-    font-weight: ;
-    color: ;
-    background-color: ;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    margin: 4% 33% 1% 33%;
+    font-weight: auto;
+    color: white;
+    background-color: rgb(165, 165, 182);
+    border-color: white;
+    border-width: 4px;
+    border-color: black;
+    border-style: solid;
+    position: relative;
+    align-items: center;
+    text-align: center;
+
 }
 
+
 p {
-    font-family: ;
-    font-size: ;
-    padding: ;
-    margin: ;
-    color: ;
-    background-color: ;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 1%;
+    margin: auto;
+    color: black;
+    background-color: seashell;
 }
 
 .logo {
     background-size: cover;
-    background-image: url();
-    background-color: ;
-    height: ;
-    width: ;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    background-color: antiquewhite;
+    height: 100px;
+    width: 100px;
+    margin:auto;
+
+}
+
+.story-box {
+    border-color: black;
+    border-width: 2px;
+    border: solid;
 }
